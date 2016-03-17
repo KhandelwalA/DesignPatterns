@@ -1,0 +1,4 @@
+Prototype is CREATIONAL design pattern 
+	1. It is used to create new objects by cloning an initialized instance
+	2. It is beneficial when clone of different subclasses are required and candidate subclass is determined at runtime
+	3. It also abstract cloning logic from client or consumer.

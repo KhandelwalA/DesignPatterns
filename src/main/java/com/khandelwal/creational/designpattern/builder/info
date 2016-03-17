@@ -1,0 +1,11 @@
+Builder is a CREATIONAL design pattern
+When to use
+1. When an object needs more than 3 to 4 arguments in constructor for its creation
+Why to use
+1. Its always error prone to create object with too many arguments in constructor as
+	a. It is quite possible to miss one or many of the argument value while creating object.
+	b. It is quite possible to provide argument values in wrong order which even harder to debug.
+2. Java has limitation of maximum 255 parameters in a method/contructor
+3. Less prone to scenario in which object is used in inconsistent state. 
+Like if any object created with default constructor and it gets used before setting required values via some setters or other method
+then object is in inconsistent state at use but this is not possible if object is created with builder pattern if not done deliberately.   
